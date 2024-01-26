@@ -1,0 +1,17 @@
+•Desenvolva um sistema que gere aleatoriamente 100 números com valores entre 0 e 100.
+
+1.Implemente a busca Sequencial para encontrar um determinado valor dentro da coleção
+a.Exiba a posição do valor
+b.Exiba a quantidade de verificações que foram realizadas
+
+2.Altere o sistema para encontrar todas as ocorrências de um determinado valor dentro da coleção
+a.Exiba a quantidade de vezes que o valor apareceu e as posições.
+b.Exiba a quantidade de verificações que foram realizadas
+
+3.Implemente a busca binária para encontrar um determinado valor dentro da coleção
+a.Exiba a posição do valor
+b.Exiba a quantidade de verificações que foram realizadas
+
+4.Altere o sistema para encontrar todas as ocorrências de um determinado valor dentro da coleção
+a.Exiba a quantidade de vezes que o valor apareceu e as posições.
+b.Exiba a quantidade de verificações que foram realizadas
