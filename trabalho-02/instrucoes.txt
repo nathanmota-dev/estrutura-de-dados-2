@@ -1,0 +1,11 @@
+Exercício 1
+
+Implemente o algoritmo Naive String Matcher
+Altere o algoritmo para aceitar caractere coringa no Padrão
+O caractere coringa pode ocorrer várias vezes no Padrão, nenhuma vez no Texto
+
+Exercício 2
+
+Implemente o algoritmo Rabin Karp Matcher
+Estenda o algoritmo para dado um texto, encontrar a ocorrência de qualquer
+padrão dentre um conjunto de padrões de comprimentos diferentes.
