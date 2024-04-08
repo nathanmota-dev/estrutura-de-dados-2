@@ -1,0 +1,1 @@
+Fazer o Algoritmo de Boruvka sobre Arvore geradora minima.
