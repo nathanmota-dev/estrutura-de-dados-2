@@ -14,7 +14,7 @@ Repositório para armazenar os trabalhos da disciplina de Estruturas de Dados 2,
 
 ## Trabalho 1 - Busca Binária e Busca Sequencial
 
-## Busca Binária
+### Busca Binária
 
 A Busca Binária precisa de um vetor pré-ordenado para funcionar, ela é um algoritmo de busca que divide o vetor em duas partes e verifica se o elemento que está sendo procurado está na parte esquerda ou direita do vetor.
 
@@ -30,7 +30,7 @@ Se a lista for par, a gente pega o primeiro elemento da lista mais o elemento do
 
 Exemplo: Lista com 6 elementos: 1,2,3,4,5,6. Estamos buscando o elemento 6. A gente pegaria (1+4)/2=2.5 ou apenas 2. Como 6 é maior que 2, a gente pega a parte direita da lista e faz a mesma coisa. A gente pega o elemento do meio da lista que é 5 e verifica se ele é igual a 6. Como não é igual, é maior e só temos um elemento concluimos que o elemento é 6.
 
-## Busca Sequencial
+### Busca Sequencial
 
 A Busca Sequencial é um algoritmo de busca que percorre o vetor do início ao fim verificando se o elemento que está sendo procurado é igual ao elemento que está sendo percorrido.
 
@@ -40,7 +40,7 @@ Comparando com a Busca Binária, a Busca Sequencial é mais lenta, porque no seu
 
 ## Trabalho 2 - Algoritmo Naive String Matcher e Algoritmo Rabin Karp Matcher
 
-## Algoritmo Naive String Matcher
+### Algoritmo Naive String Matcher
 
 O Algoritmo de Naive String Matcher serve para conseguir achar um padão de uma substring dentro de uma string.
 
@@ -48,7 +48,7 @@ Ele funciona comparando a substring com a string, se a substring for igual a str
 
 Exemplo: String = "ABACADABCAC", Substring = "ABC". Ele compara ABC com as 3 primeiras posições da String que é ABA, como não é igual ele avança uma posição e compara BAC com ABC, como não é igual ele avança uma posição e compara ACA com ABC, como não é igual ele avança uma posição e compara CAD com ABC, como não é igual ele avança uma posição e compara ADB com ABC, como não é igual ele avança uma posição e compara DAB com ABC, como não é igual ele avança uma posição e compara ABC com ABC, como é igual ele retorna a posição 7.
 
-## Algoritmo Rabin Karp Matcher
+### Algoritmo Rabin Karp Matcher
 
 O Algoritmo de Rabin Karp Matcher também é um algoritmo de busca de substring que utiliza o método de hashing para encontrar a substring.
 
@@ -78,7 +78,7 @@ Embora a abordagem recursiva possa ser mais elegante em termos de código, ela p
 
 ## Trabalho 5 - DFS e BFS
 
-## BFS - Breadth First Search
+### BFS - Breadth First Search
 
 O algoritmo de busca em largura (BFS) é um algoritmo de busca que percorre um grafo com o objetivo de encontrar o caminho mínimo entre dois vértices ou explorar todos os vértices e arestas de um grafo. O algoritmo utiliza uma fila (queue) para armazenar vértices a serem explorados. Inicia-se no vértice de origem e visita todos os vértices vizinhos antes de avançar para os vértices do próximo nível de distância. Assim, o BFS percorre o grafo por camadas ou níveis de distância, garantindo que todos os vértices sejam explorados na menor distância possível.
 
@@ -89,7 +89,7 @@ A medida que eu vou caminhando no grafo eu vou colocando cores nos meus vértice
 O vértice inicial começa com a cor cinza (já foi visitado), a sua distância 0 por ser o vértice pai e seu antecessor é nulo.
 A fila (FIFO) serve para colocar os vértices
 
-## DFS - Depth First Search
+### DFS - Depth First Search
 
 O algoritmo de busca em profundidade (DFS) é um algoritmo de busca que percorre um grafo explorando o mais profundamente possível em cada caminho antes de retroceder. O algoritmo utiliza uma pilha (stack) ou recursão para armazenar vértices a serem explorados. Ele começa no vértice de origem e visita um caminho até o final antes de voltar e explorar outros caminhos. Isso faz com que o DFS seja útil para detectar ciclos, encontrar componentes conectados, e, em alguns casos, resolver problemas de percurso e ordenação topológica.
 
@@ -115,17 +115,17 @@ Arvore Geradora Minima - Algoritmo de Boruvka
 
 Vamos imaginar que uma Compania de Distruibuição de agua quer abastecer: A,B,C,D,E e F conforme o grafo abaixo:
 
-[Grafo 1](/trabalho-08/assets/grafo1.JPG)
+![Grafo 1](/trabalho-08/assets/grafo1.JPG)
 
 Para aplicar o Algoritmo de Boruvka basicamente vamos precisar seguir alguns passos:
 
 1º Passo: Remover todas as arestas paralelas (mais de uma conexão) e ciclos
 
-[Grafo 2](/trabalho-08/assets/grafo2.JPG)
+![Grafo 2](/trabalho-08/assets/grafo2.JPG)
 
 2º Passo: Iniciar com um grafo parcial, o grafo T constíuído por todos os vértices e da respectivas arestas de menor valor que emanam (saem) dos mesmos
 
-[Grafo 3](/trabalho-08/assets/grafo3.JPG)
+![Grafo 3](/trabalho-08/assets/grafo3.JPG)
 
 3º Passo: Agrupar os vertices sucessivamente pelas arestas de menor valor identificados desde que não forme um circuito
 
@@ -136,11 +136,11 @@ C-E=3
 D-F=4 -> Forma um circuito então não é adicionada
 A-B=7
 
-[Grafo 4](/trabalho-08/assets/grafo4.JPG)
+![Grafo 4](/trabalho-08/assets/grafo4.JPG)
 
 Então assim o algoritmo de Boruvka foi aplicado gerando a Arvore Geradora Mínima. 
 
-[Grafo 5](/trabalho-08/assets/grafo5.JPG)
+![Grafo 5](/trabalho-08/assets/grafo5.JPG)
 
 Sendo assim iria gastar para percorrer todo percurso:
 
