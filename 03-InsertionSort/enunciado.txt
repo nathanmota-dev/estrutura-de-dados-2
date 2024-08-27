@@ -1,0 +1,9 @@
+Caso Médio do Insertion Sort
+
+Dado que sabemos que o custo de execução do insertion sort é:
+  T(n) = c1.n + c2(n-1) + c3(n-1) + c4(Σnj=2tj) + c5(Σnj=2 (tj-1)) + c6(Σnj=2 (tj-1)) + c7(n-1)
+
+Determinar o valor de T(n) para o caso médio, onde:
+tj = j/2, para j = 2,...,n
+
+.
