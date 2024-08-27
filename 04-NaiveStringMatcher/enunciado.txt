@@ -1,0 +1,14 @@
+Nesta atribuição, você implementará o algoritmo Naïve String Matcher com um recurso curinga.
+
+Tarefa 1: Implementando o algoritmo ingênuo de correspondência de strings
+Você começará implementando o algoritmo Naïve String Matcher de acordo com as instruções originais.
+
+Tarefa 2: Adicionando a funcionalidade curinga
+Em seguida, você modificará o algoritmo para aceitar um curinga no padrão. O caractere curinga pode ocorrer várias vezes no padrão, mas não pode ocorrer no texto.
+
+Objetivos de aprendizagem
+Ao concluir esta tarefa, você irá:
+
+Compreender e implementar o algoritmo Naïve String Matcher
+Modificar um algoritmo para aceitar um caractere curinga
+Certifique-se de testar seu algoritmo modificado com diferentes padrões e textos para garantir que ele funcione conforme o esperado.
