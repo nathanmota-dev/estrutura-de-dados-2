@@ -1,0 +1,14 @@
+Há duas partes distintas na implementação: 
+um programa que faz a codificação
+um programa que faz a decodificação.
+Para comprimir um arquivo, é necessário a tabela de compressão. Como vimos, esta tabela é construída com uma árvore binária  de codificação.
+Assumindo que um número fixo de bits é escrito em um arquivo, um arquivo comprimido é criado seguindo os seguintes passos:
+Construa a tabela de codificação;
+Leia o arquivo a ser codificado e processe um caractere de cada vez. Para processar o caractere e chegar à sequencia de bits que representa o caractere, use a tabela de caracteres que foi criada no passo anterior. 
+Escreva essa sequencia de bits no arquivo comprimido.
+
+O arquivo comprimido deve conter as informações necessárias para se chegar corretamente ao arquivo original a partir do arquivo comprimido.
+As seguintes informações são necessárias:
+um cabeçalho no arquivo codificado que deve conter a árvore de codificação;
+alguma marca de final de arquivo para indicar que a sequencia de bits do cabeçalho chegou ao fim.
+O programa decodificador deve criar a árvore de codificação que está no cabeçalho do arquivo, ler os bits e navegar na árvore até encontrar os nós folhas correspondentes àquela sequencia de bits lidos.
