@@ -1,0 +1,8 @@
+Criando uma tabela de hash para cidades em Minas Gerais
+Você criará uma tabela de hash usando as cidades do estado de Minas Gerais. A chave para cada registro será o nome da cidade e nenhum outro campo é necessário para este exercício. Use o arquivo Cidades.txt como entrada do sistema.
+
+Implementando a função hash
+Você precisa implementar uma função hash() que usa uma combinação dos códigos ASCII das letras no nome da cidade. Execute hash() várias vezes, cada vez usando um tamanho de tabela diferente e produzindo as seguintes estatísticas para cada execução:
+
+O número total de colisões
+O número de endereços com 0, 1, 2, 3, até 10 ou mais de 10 cidades associadas
