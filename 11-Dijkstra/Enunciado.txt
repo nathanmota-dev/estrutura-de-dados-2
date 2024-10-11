@@ -1,0 +1,4 @@
+1) Implemente o Algoritmo de Dijkstra. Execute-o para o grafo abaixo, calcule a distância partindo do vértice a até o vértice m
+
+2) Depois execute seu algoritmo para o problema resolvido em sala:
+Maria é médica, e faz atendimento residencial para alguns pacientes com doenças graves. Maria mora na cidade esquematizada pelo grafo abaixo. Sabe-se que seus pacientes moram nas áreas O, E, D, X e T. Os pesos das arestas representam o tempo gasto para ir de uma área à outra. Ajude Maria a encontrar o menor tempo para chegar à casa de cada um de seus pacientes, partindo sempre de seu consultório na área G. Mostre à Maria, também, qual caminho ela percorre para chegar na casa do paciente T. (Seu código deve mostrar a tabela de distâncias e precedência final, além do caminho para cada cliente.)
