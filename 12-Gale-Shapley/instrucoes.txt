@@ -1,0 +1,10 @@
+Pesquise e apresente uma solução para o problema Beecrowd 1362
+Sua tarefa é pesquisar o algoritmo de emparelhamento de sua equipe e usá-lo para resolver o problema Beecrowd 1362 - "My T-Shirt Fits Me". Você pode encontrar a descrição do problema aqui.
+
+Pesquisa: Comece pesquisando o algoritmo de emparelhamento de sua equipe. Entenda como funciona e sua aplicação na resolução de problemas.
+
+Solução: Depois de ter uma boa compreensão do algoritmo, use-o para resolver o problema 1362 do Beecrowd. Implemente o algoritmo para criar uma solução para o problema em questão.
+
+Apresentação: Prepare uma apresentação para explicar o algoritmo de emparelhamento e como ele foi aplicado para resolver o problema dado. Sua apresentação deve incluir as etapas do algoritmo, o processo de resolução de problemas e a solução final, e a tela de aceito, caso consiga passar o problema com sucesso.
+
+Certifique-se de demonstrar uma compreensão clara do algoritmo e sua aplicação na resolução de problemas. Boa sorte!
