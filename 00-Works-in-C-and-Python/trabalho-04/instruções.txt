@@ -1,5 +1,0 @@
-Faça um algoritmo de pesquisa binária recursiva para resolver os dois problemas: 
-
-1) Dado um numero natural, imprima recursivamente a sua representação binária. 
-
-2) Dado um vetor n, verificar se  um determinado elemento esta ou não presente.
